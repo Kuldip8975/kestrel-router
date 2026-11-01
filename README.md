@@ -1,5 +1,38 @@
 # Kestrel Home — service-request router
 
+<img width="2560" height="1280" alt="kestrel-banner" src="https://github.com/user-attachments/assets/f60aec82-3d66-4b23-9097-52904eda7db8" />
+
+
+## The problem, in plain words
+
+Kestrel Home sells air fryers, purifiers, fans and other appliances. When a customer writes in ("my purifier shows error E3", "I paid for installation but nobody came"), the request has to reach the right one of seven teams: Repairs, Installs & Demo, Filters & Consumables, Billing, Returns & Replacement, Warranty Claims or Product Advice.
+
+A vendor's routing bot did this job for **Rs 3.2 lakh a year**, and it got it wrong often.
+
+**One customer's story.** Priya buys a ceiling fan and pays Rs 499 for installation. A week later nobody has come, so she writes on WhatsApp: *"Fan delivered but not installed yet, I paid by card."* The bot sees the word "paid" and sends her to **Billing**. Billing can't send an installer, so they transfer her to **Installs & Demo**. Priya gets a second call and waits longer, and Kestrel pays for the transfer (Rs 305) and the extra contact (Rs 260).
+
+That happened on **about one request in four**. Across 18 months of history, the bot sent requests to the right team only **77%** of the time. Each mistake cost about **Rs 700**: roughly **Rs 14 lakh a year** in wasted transfers, on top of the licence.
+
+Kestrel asked for a replacement that "matches the bot's labels at 90%". But copying a router that is wrong a quarter of the time would copy its mistakes too.
+
+## What we built
+
+A router that learned from **where each request was actually resolved**, not from the bot's guesses:
+
+| | Old bot | This router |
+|---|---|---|
+| Requests sent to the right team first time | 77 in 100 | **85 in 100** |
+| ...when the message says what is wrong (84% of requests) | 87 in 100 | **96 in 100** |
+| "I paid..." messages routed correctly | 33 in 100 | **86 in 100** |
+| Cost per year | Rs 3.2 lakh licence + about Rs 14 lakh in misroutes | **Rs 0** to run + about Rs 9.4 lakh in misroutes |
+| **Saving** | | **about Rs 7.8 lakh a year** |
+
+With the new router, Priya's message goes straight to **Installs & Demo**, with the reason shown: *"Customer mentions paying, but the problem is not the payment itself, so not Billing."*
+
+About 16% of messages say nothing useful, for example *"please call me about my purifier"*. No system can route those from the text. The router doesn't guess; it tells the agent to **ask the customer one question first** and suggests the question.
+
+## In one line
+
 Routes a new service request to one of Kestrel's seven teams, says how sure it is, explains why in plain words, and flags the requests that should get one clarifying question instead of a guess.
 
 - Back-tested at **84.6% correct** against where requests were actually resolved (old bot: **77.1%**), and **96% correct** on the 84% of requests that say what the problem is.
@@ -158,4 +191,4 @@ python analysis_workload.py  # team workload for headcount planning -> evidence/
 2. **Old team names are merged into the new ones** (Installations → Installs & Demo, Consumables → Filters & Consumables; policy §5 says responsibilities did not change). Predictions use the current names, because every test request is from after the rename.
 3. **No language-model API in the product.** A local model is already at the ceiling the data allows on clear requests. An LLM would add a per-request bill Farhan explicitly asked us to avoid, and it cannot route "please call me" either; there is nothing in the text to route on.
 4. **Raw customer data is not in this repo** (policy §10). `data/`, `logs/` and `evidence/private/` are git-ignored, and decision logs leave out message text by default. `predictions.csv` holds only request IDs and team names.
-5. **Legacy Zoho text was cleaned** (garbled characters such as `Ã¢â‚¬Â¦`) and order/registration numbers masked before training.
+5. **Legacy Zoho text was cleaned** (garbled characters such as `Ã¢â‚¬Â¦`) and order/registration numbers masked before training.<img width="2560" height="1280" alt="kestrel-banner" src="https://github.com/user-attachments/assets/f04e1b60-3159-40b5-b69e-a9e2b4496497" />
