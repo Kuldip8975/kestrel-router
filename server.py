@@ -44,6 +44,8 @@ LOG_TEXT = os.environ.get("KESTREL_LOG_TEXT", "0") == "1"
 MODEL_PATH = os.path.join(HERE, "models", "router.joblib")
 CARD_PATH = os.path.join(HERE, "models", "model_card.json")
 PAGE = os.path.join(HERE, "static", "index.html")
+MEDIA_DIR = os.path.join(HERE, "static", "media")
+MEDIA_TYPES = {".mp4": "video/mp4", ".jpg": "image/jpeg", ".png": "image/png"}
 
 MAX_BODY = 512 * 1024
 MAX_TEXT = 4000
@@ -268,12 +270,59 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store")
         if ctype.startswith("text/html"):
             self.send_header("Content-Security-Policy",
-                             "default-src 'self'; script-src 'self' 'unsafe-inline'; "
+                             "default-src 'self'; media-src 'self'; img-src 'self'; script-src 'self' 'unsafe-inline'; "
                              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
                              "font-src https://fonts.gstatic.com; connect-src 'self'")
             self.send_header("X-Frame-Options", "DENY")
         self.end_headers()
         self.wfile.write(data)
+
+    def _send_media(self, name):
+        """Serve a file from static/media with byte-range support, so the video can be seeked."""
+        ctype = MEDIA_TYPES.get(os.path.splitext(name)[1].lower())
+        path = os.path.join(MEDIA_DIR, os.path.basename(name))
+        if not ctype or name != os.path.basename(name) or not os.path.isfile(path):
+            return self._send(404, {"error": "Not found."})
+        size = os.path.getsize(path)
+        start, end, code = 0, size - 1, 200
+        rng = self.headers.get("Range", "")
+        if rng.startswith("bytes="):
+            try:
+                a, b = rng[6:].split(",")[0].split("-")
+                if a:
+                    start, end = int(a), int(b) if b else size - 1
+                else:
+                    start, end = max(0, size - int(b)), size - 1
+                end = min(end, size - 1)
+                if start > end:
+                    raise ValueError
+                code = 206
+            except ValueError:
+                self.send_response(416)
+                self.send_header("Content-Range", f"bytes */{size}")
+                self.send_header("Content-Length", "0")
+                self.end_headers()
+                return
+        self.send_response(code)
+        self.send_header("Content-Type", ctype)
+        self.send_header("Accept-Ranges", "bytes")
+        self.send_header("Content-Length", str(end - start + 1))
+        self.send_header("Cache-Control", "public, max-age=86400")
+        if code == 206:
+            self.send_header("Content-Range", f"bytes {start}-{end}/{size}")
+        self.end_headers()
+        with open(path, "rb") as f:
+            f.seek(start)
+            left = end - start + 1
+            try:
+                while left > 0:
+                    chunk = f.read(min(256 * 1024, left))
+                    if not chunk:
+                        break
+                    self.wfile.write(chunk)
+                    left -= len(chunk)
+            except (BrokenPipeError, ConnectionResetError):
+                pass  # viewer skipped ahead or closed the page
 
     def _client(self):
         return self.headers.get("X-Forwarded-For", self.client_address[0]).split(",")[0].strip()
@@ -320,6 +369,8 @@ class Handler(BaseHTTPRequestHandler):
             if path in ("/", "/index.html"):
                 with open(PAGE, "rb") as f:
                     return self._send(200, f.read(), "text/html; charset=utf-8")
+            if path.startswith("/media/"):
+                return self._send_media(path[len("/media/"):])
             if path == "/health":
                 return self._send(200 if HOLDER.model else 503, {
                     "ok": HOLDER.model is not None, "model_version": HOLDER.version,
