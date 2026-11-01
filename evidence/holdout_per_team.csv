@@ -1,0 +1,8 @@
+team,true_n,precision,recall,bot_recall
+Repairs,498,0.843,0.896,0.773
+Installs & Demo,321,0.844,0.844,0.698
+Filters & Consumables,207,0.839,0.831,0.836
+Billing,255,0.887,0.863,0.859
+Returns & Replacement,326,0.849,0.825,0.73
+Warranty Claims,259,0.821,0.83,0.734
+Product Advice,269,0.854,0.803,0.773

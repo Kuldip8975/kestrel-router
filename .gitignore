@@ -1,0 +1,10 @@
+# Kestrel customer data must not be published (ops policy §10). Put the data pack here locally.
+data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+evidence/private/
+logs/
+models/candidate/

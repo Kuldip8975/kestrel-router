@@ -1,0 +1,5 @@
+# Service (server.py) needs only scikit-learn (brings numpy, scipy, joblib).
+# Pinned to the version the committed model was trained with.
+scikit-learn==1.9.1
+# Training and analysis scripts also need pandas.
+pandas>=2.0

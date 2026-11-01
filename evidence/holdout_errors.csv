@@ -1,0 +1,327 @@
+request_id,channel,product_family,warranty_status,bot,pred,final_team,conf,vague,transfers
+SR508689,ivr,Mixer Grinder,in_warranty,Repairs,Repairs,Returns & Replacement,0.283432307576604,True,1
+SR508691,whatsapp,Room Heater,out_of_warranty,Repairs,Product Advice,Installs & Demo,0.4026334324742297,True,1
+SR508701,email,Induction Cooktop,in_warranty,Repairs,Billing,Repairs,0.4641735869887462,True,0
+SR508705,ivr,Induction Cooktop,out_of_warranty,Returns & Replacement,Returns & Replacement,Product Advice,0.9937782992432864,False,0
+SR508706,whatsapp,Induction Cooktop,shield,Repairs,Returns & Replacement,Warranty Claims,0.3789338164022243,True,2
+SR508716,chat,Robot Vacuum,in_warranty,Repairs,Product Advice,Installs & Demo,0.3656825040292305,True,2
+SR508717,whatsapp,Mixer Grinder,in_warranty,Repairs,Warranty Claims,Product Advice,0.3019169397478901,True,1
+SR508721,whatsapp,Water Purifier,out_of_warranty,Filters & Consumables,Installs & Demo,Repairs,0.3452541119994164,True,1
+SR508739,chat,Room Heater,shield,Repairs,Installs & Demo,Repairs,0.4689669903134558,True,0
+SR508740,chat,Robot Vacuum,out_of_warranty,Repairs,Warranty Claims,Billing,0.3837694448715748,True,2
+SR508751,ivr,Water Purifier,in_warranty,Product Advice,Product Advice,Billing,0.9979507892013799,False,0
+SR508760,email,Mixer Grinder,in_warranty,Repairs,Filters & Consumables,Product Advice,0.5322955448102392,True,1
+SR508761,chat,Air Fryer,out_of_warranty,Repairs,Repairs,Product Advice,0.304104135189407,True,1
+SR508766,whatsapp,Air Fryer,out_of_warranty,Repairs,Repairs,Filters & Consumables,0.3390369316166411,True,2
+SR508770,whatsapp,Room Heater,out_of_warranty,Repairs,Repairs,Billing,0.4169118795845767,True,1
+SR508772,ivr,Water Purifier,in_warranty,Filters & Consumables,Warranty Claims,Filters & Consumables,0.4666458520591841,True,0
+SR508781,chat,Room Heater,in_warranty,Repairs,Warranty Claims,Repairs,0.32508551075989006,True,0
+SR508782,whatsapp,Induction Cooktop,shield,Repairs,Installs & Demo,Product Advice,0.3055976736971025,True,1
+SR508783,whatsapp,Mixer Grinder,shield,Repairs,Repairs,Warranty Claims,0.26309347731683463,True,2
+SR508793,chat,Mixer Grinder,out_of_warranty,Repairs,Returns & Replacement,Repairs,0.343466783290108,True,0
+SR508802,ivr,Room Heater,out_of_warranty,Repairs,Returns & Replacement,Product Advice,0.639981739847575,True,2
+SR508813,chat,Water Purifier,in_warranty,Filters & Consumables,Warranty Claims,Installs & Demo,0.5509107214095539,True,1
+SR508823,chat,Induction Cooktop,in_warranty,Repairs,Repairs,Warranty Claims,0.532333381044309,True,2
+SR508827,ivr,Robot Vacuum,in_warranty,Repairs,Repairs,Returns & Replacement,0.6271972474310896,True,2
+SR508845,ivr,Air Fryer,in_warranty,Repairs,Product Advice,Installs & Demo,0.2962825967544352,True,1
+SR508846,whatsapp,Mixer Grinder,out_of_warranty,Repairs,Returns & Replacement,Filters & Consumables,0.22166074961068247,True,1
+SR508848,whatsapp,Room Heater,shield,Repairs,Installs & Demo,Filters & Consumables,0.3342560146088851,True,1
+SR508853,whatsapp,Air Fryer,in_warranty,Filters & Consumables,Installs & Demo,Filters & Consumables,0.5238141472160095,False,0
+SR508859,whatsapp,Mixer Grinder,shield,Repairs,Returns & Replacement,Repairs,0.5354221690804516,True,0
+SR508865,ivr,Mixer Grinder,in_warranty,Repairs,Product Advice,Filters & Consumables,0.44208688701748783,True,1
+SR508867,whatsapp,Water Purifier,out_of_warranty,Filters & Consumables,Filters & Consumables,Repairs,0.2670567254076301,True,1
+SR508871,whatsapp,Mixer Grinder,shield,Repairs,Installs & Demo,Returns & Replacement,0.26331692628078546,True,1
+SR508876,chat,Induction Cooktop,out_of_warranty,Repairs,Filters & Consumables,Installs & Demo,0.34723568281490325,True,1
+SR508878,ivr,Mixer Grinder,shield,Repairs,Warranty Claims,Installs & Demo,0.8994148644677866,False,2
+SR508886,ivr,Air Fryer,in_warranty,Repairs,Returns & Replacement,Repairs,0.21881170480398654,True,0
+SR508893,email,Room Heater,in_warranty,Repairs,Filters & Consumables,Returns & Replacement,0.9528248112198725,False,2
+SR508894,ivr,Air Fryer,out_of_warranty,Repairs,Repairs,Billing,0.38477126465159317,True,2
+SR508895,whatsapp,Induction Cooktop,in_warranty,Repairs,Installs & Demo,Billing,0.4146411545111682,True,2
+SR508917,whatsapp,Robot Vacuum,out_of_warranty,Repairs,Repairs,Returns & Replacement,0.4039118894749253,True,1
+SR508939,chat,Water Purifier,shield,Filters & Consumables,Warranty Claims,Filters & Consumables,0.2880894487444381,True,0
+SR508954,whatsapp,Water Purifier,out_of_warranty,Filters & Consumables,Installs & Demo,Warranty Claims,0.47859141312881304,True,2
+SR508959,ivr,Ceiling Fan,shield,Repairs,Returns & Replacement,Billing,0.35628991908683866,True,2
+SR508960,ivr,Induction Cooktop,out_of_warranty,Repairs,Returns & Replacement,Repairs,0.28619493388560324,True,0
+SR508976,ivr,Water Purifier,in_warranty,Returns & Replacement,Returns & Replacement,Warranty Claims,0.9958609478853923,False,0
+SR508991,chat,Mixer Grinder,out_of_warranty,Repairs,Product Advice,Repairs,0.2365017842202298,True,0
+SR509004,whatsapp,Ceiling Fan,out_of_warranty,Product Advice,Product Advice,Filters & Consumables,0.9734798991662879,False,0
+SR509012,chat,Mixer Grinder,shield,Warranty Claims,Warranty Claims,Returns & Replacement,0.9919633360354577,False,0
+SR509017,email,Water Purifier,in_warranty,Filters & Consumables,Repairs,Warranty Claims,0.2636995888786093,True,1
+SR509033,ivr,Air Fryer,in_warranty,Repairs,Filters & Consumables,Returns & Replacement,0.31788675937177646,True,2
+SR509050,ivr,Water Purifier,shield,Filters & Consumables,Returns & Replacement,Warranty Claims,0.20867838916802864,True,2
+SR509060,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Warranty Claims,Returns & Replacement,0.3991301125539898,True,1
+SR509063,ivr,Robot Vacuum,in_warranty,Repairs,Repairs,Product Advice,0.5489284207905025,True,1
+SR509067,chat,Mixer Grinder,in_warranty,Repairs,Repairs,Product Advice,0.648621378973476,True,1
+SR509068,ivr,Robot Vacuum,out_of_warranty,Repairs,Returns & Replacement,Warranty Claims,0.40343106354364267,True,2
+SR509073,whatsapp,Water Purifier,in_warranty,Installs & Demo,Installs & Demo,Repairs,0.9941498136115643,False,0
+SR509090,ivr,Water Purifier,in_warranty,Repairs,Repairs,Warranty Claims,0.9080405367351598,False,0
+SR509091,ivr,Mixer Grinder,in_warranty,Repairs,Returns & Replacement,Repairs,0.5823685468339831,False,0
+SR509092,chat,Induction Cooktop,in_warranty,Repairs,Product Advice,Warranty Claims,0.5791130492962947,True,1
+SR509110,ivr,Air Fryer,shield,Repairs,Repairs,Billing,0.9824834181292442,False,0
+SR509123,whatsapp,Ceiling Fan,shield,Repairs,Returns & Replacement,Repairs,0.3350654800747714,True,0
+SR509129,chat,Ceiling Fan,out_of_warranty,Repairs,Repairs,Billing,0.3355914274815047,True,2
+SR509131,whatsapp,Induction Cooktop,in_warranty,Returns & Replacement,Warranty Claims,Returns & Replacement,0.5646467097933213,False,0
+SR509139,email,Air Fryer,in_warranty,Filters & Consumables,Billing,Filters & Consumables,0.7337080900568403,False,0
+SR509144,whatsapp,Room Heater,out_of_warranty,Repairs,Filters & Consumables,Billing,0.30186869889572987,True,1
+SR509145,whatsapp,Mixer Grinder,in_warranty,Repairs,Returns & Replacement,Repairs,0.5452264778788845,False,0
+SR509146,ivr,Ceiling Fan,in_warranty,Repairs,Returns & Replacement,Repairs,0.4772962002358163,True,0
+SR509164,ivr,Mixer Grinder,in_warranty,Repairs,Repairs,Returns & Replacement,0.5262719249633462,True,1
+SR509170,email,Induction Cooktop,in_warranty,Repairs,Filters & Consumables,Installs & Demo,0.3758212566458792,True,2
+SR509171,ivr,Water Purifier,shield,Filters & Consumables,Warranty Claims,Filters & Consumables,0.3479651506093727,True,0
+SR509173,ivr,Robot Vacuum,out_of_warranty,Repairs,Warranty Claims,Filters & Consumables,0.2803141744967371,True,1
+SR509184,email,Robot Vacuum,shield,Repairs,Warranty Claims,Returns & Replacement,0.32679606664079147,True,1
+SR509187,whatsapp,Mixer Grinder,shield,Repairs,Warranty Claims,Filters & Consumables,0.2704667061126541,True,2
+SR509221,whatsapp,Room Heater,shield,Repairs,Filters & Consumables,Repairs,0.27271142936250065,True,0
+SR509224,ivr,Ceiling Fan,shield,Repairs,Returns & Replacement,Installs & Demo,0.32551910720789734,True,2
+SR509233,chat,Robot Vacuum,out_of_warranty,Returns & Replacement,Returns & Replacement,Installs & Demo,0.986890154747236,False,0
+SR509247,chat,Water Purifier,shield,Filters & Consumables,Warranty Claims,Repairs,0.4739349359921496,True,2
+SR509259,whatsapp,Robot Vacuum,in_warranty,Repairs,Product Advice,Returns & Replacement,0.24399776835965123,True,1
+SR509260,chat,Mixer Grinder,out_of_warranty,Repairs,Repairs,Returns & Replacement,0.3791666627835784,True,1
+SR509266,chat,Ceiling Fan,in_warranty,Repairs,Returns & Replacement,Filters & Consumables,0.21667464473663614,True,2
+SR509278,email,Mixer Grinder,in_warranty,Repairs,Billing,Returns & Replacement,0.4665331170803096,True,1
+SR509280,chat,Room Heater,in_warranty,Repairs,Installs & Demo,Filters & Consumables,0.24043649294780142,True,1
+SR509286,chat,Water Purifier,in_warranty,Filters & Consumables,Returns & Replacement,Product Advice,0.27900337007884063,True,1
+SR509302,whatsapp,Air Fryer,out_of_warranty,Repairs,Billing,Installs & Demo,0.2892703430223547,True,1
+SR509303,ivr,Air Fryer,in_warranty,Repairs,Filters & Consumables,Installs & Demo,0.4939840310555254,True,2
+SR509310,whatsapp,Mixer Grinder,in_warranty,Repairs,Installs & Demo,Warranty Claims,0.3238986915719517,True,1
+SR509313,ivr,Robot Vacuum,in_warranty,Repairs,Returns & Replacement,Product Advice,0.25339936500159027,True,2
+SR509344,ivr,Robot Vacuum,in_warranty,Repairs,Repairs,Installs & Demo,0.24955992249385334,True,1
+SR509350,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Warranty Claims,Filters & Consumables,0.3009431235488735,True,0
+SR509365,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Filters & Consumables,Billing,0.952207188730946,False,0
+SR509367,ivr,Air Fryer,in_warranty,Repairs,Returns & Replacement,Installs & Demo,0.678252952060035,False,2
+SR509377,ivr,Mixer Grinder,shield,Repairs,Repairs,Product Advice,0.2861151461771457,True,1
+SR509381,whatsapp,Air Fryer,shield,Product Advice,Product Advice,Billing,0.8460234720454344,False,0
+SR509389,chat,Robot Vacuum,out_of_warranty,Billing,Filters & Consumables,Billing,0.8762955087708316,False,0
+SR509395,whatsapp,Air Fryer,out_of_warranty,Repairs,Returns & Replacement,Repairs,0.38587160457661573,True,0
+SR509404,email,Water Purifier,out_of_warranty,Filters & Consumables,Installs & Demo,Product Advice,0.4014334767836646,True,1
+SR509406,whatsapp,Water Purifier,out_of_warranty,Filters & Consumables,Repairs,Product Advice,0.2617823315589149,True,1
+SR509408,email,Induction Cooktop,in_warranty,Filters & Consumables,Filters & Consumables,Billing,0.9323694734123834,False,1
+SR509423,chat,Robot Vacuum,in_warranty,Repairs,Warranty Claims,Product Advice,0.3999980733216677,True,2
+SR509426,chat,Robot Vacuum,in_warranty,Repairs,Returns & Replacement,Warranty Claims,0.28493619229854944,True,2
+SR509429,chat,Room Heater,in_warranty,Repairs,Returns & Replacement,Warranty Claims,0.4433497766511918,True,1
+SR509446,chat,Ceiling Fan,in_warranty,Repairs,Repairs,Billing,0.5002288164520711,True,1
+SR509447,whatsapp,Air Fryer,shield,Repairs,Warranty Claims,Repairs,0.38288996066348113,True,0
+SR509449,whatsapp,Induction Cooktop,shield,Repairs,Installs & Demo,Returns & Replacement,0.22917601655647257,True,1
+SR509450,ivr,Mixer Grinder,in_warranty,Filters & Consumables,Returns & Replacement,Filters & Consumables,0.5433853497264466,False,0
+SR509452,chat,Robot Vacuum,shield,Repairs,Installs & Demo,Warranty Claims,0.5674450318918204,True,2
+SR509453,ivr,Water Purifier,in_warranty,Filters & Consumables,Warranty Claims,Billing,0.35079760364338985,True,1
+SR509454,whatsapp,Room Heater,out_of_warranty,Repairs,Filters & Consumables,Installs & Demo,0.37406514955941866,True,2
+SR509461,email,Ceiling Fan,out_of_warranty,Repairs,Repairs,Installs & Demo,0.46588702782055247,True,1
+SR509463,whatsapp,Room Heater,in_warranty,Repairs,Warranty Claims,Filters & Consumables,0.2881372362208984,True,2
+SR509471,ivr,Water Purifier,shield,Billing,Installs & Demo,Billing,0.6857675824900571,False,0
+SR509480,chat,Ceiling Fan,in_warranty,Repairs,Returns & Replacement,Warranty Claims,0.2859576384553066,True,2
+SR509481,whatsapp,Air Fryer,in_warranty,Repairs,Warranty Claims,Billing,0.2592105784162427,True,1
+SR509507,ivr,Air Fryer,out_of_warranty,Repairs,Returns & Replacement,Warranty Claims,0.6892446375376211,True,2
+SR509509,email,Water Purifier,in_warranty,Filters & Consumables,Filters & Consumables,Warranty Claims,0.994764330597187,False,0
+SR509534,chat,Room Heater,out_of_warranty,Repairs,Repairs,Installs & Demo,0.20702254457440838,True,2
+SR509543,chat,Robot Vacuum,out_of_warranty,Repairs,Repairs,Returns & Replacement,0.8918118508543665,False,2
+SR509549,chat,Robot Vacuum,out_of_warranty,Repairs,Warranty Claims,Returns & Replacement,0.289821054093557,True,2
+SR509551,chat,Ceiling Fan,in_warranty,Repairs,Billing,Returns & Replacement,0.3726897815712426,True,1
+SR509553,whatsapp,Robot Vacuum,in_warranty,Repairs,Product Advice,Warranty Claims,0.55759138256777,True,2
+SR509587,ivr,Ceiling Fan,out_of_warranty,Repairs,Installs & Demo,Repairs,0.24686443440102065,True,0
+SR509589,email,Room Heater,out_of_warranty,Repairs,Repairs,Returns & Replacement,0.6396366319257992,True,1
+SR509595,whatsapp,Ceiling Fan,shield,Repairs,Repairs,Billing,0.9931928864067566,False,0
+SR509601,ivr,Room Heater,in_warranty,Product Advice,Product Advice,Installs & Demo,0.9887304029140567,False,0
+SR509606,chat,Ceiling Fan,shield,Repairs,Product Advice,Repairs,0.4270684318289689,True,0
+SR509612,ivr,Mixer Grinder,in_warranty,Repairs,Repairs,Billing,0.26358665963788824,True,2
+SR509619,ivr,Induction Cooktop,in_warranty,Repairs,Repairs,Product Advice,0.5281375237521442,True,1
+SR509620,email,Air Fryer,shield,Repairs,Warranty Claims,Product Advice,0.3495962274736829,True,2
+SR509622,chat,Induction Cooktop,in_warranty,Repairs,Billing,Product Advice,0.9407046832552435,True,2
+SR509623,whatsapp,Air Fryer,shield,Billing,Billing,Repairs,0.4523120176637831,False,2
+SR509629,chat,Ceiling Fan,in_warranty,Repairs,Product Advice,Returns & Replacement,0.3162706734895924,True,2
+SR509630,chat,Water Purifier,shield,Filters & Consumables,Billing,Warranty Claims,0.5069696380478828,True,2
+SR509639,ivr,Room Heater,shield,Repairs,Repairs,Returns & Replacement,0.8531135701701407,False,2
+SR509640,whatsapp,Air Fryer,in_warranty,Repairs,Warranty Claims,Billing,0.3212977905884333,True,2
+SR509642,ivr,Mixer Grinder,in_warranty,Warranty Claims,Warranty Claims,Repairs,0.9547842871922188,False,1
+SR509646,chat,Robot Vacuum,in_warranty,Repairs,Installs & Demo,Repairs,0.7195972101120292,False,0
+SR509662,whatsapp,Induction Cooktop,in_warranty,Repairs,Repairs,Installs & Demo,0.22239637660739695,True,1
+SR509671,whatsapp,Air Fryer,out_of_warranty,Repairs,Repairs,Billing,0.3435331243946039,True,2
+SR509677,ivr,Room Heater,shield,Repairs,Repairs,Billing,0.26842413229300993,True,2
+SR509682,chat,Water Purifier,shield,Filters & Consumables,Returns & Replacement,Repairs,0.2773351300173493,True,1
+SR509689,whatsapp,Air Fryer,in_warranty,Repairs,Warranty Claims,Repairs,0.3216330751831559,True,1
+SR509693,whatsapp,Mixer Grinder,out_of_warranty,Repairs,Returns & Replacement,Repairs,0.5235810195174929,True,0
+SR509694,whatsapp,Ceiling Fan,in_warranty,Repairs,Filters & Consumables,Repairs,0.5612514283281655,True,0
+SR509712,chat,Induction Cooktop,in_warranty,Repairs,Repairs,Product Advice,0.5801748478280143,True,1
+SR509731,ivr,Air Fryer,out_of_warranty,Repairs,Filters & Consumables,Repairs,0.901363586542358,False,0
+SR509738,chat,Mixer Grinder,in_warranty,Repairs,Installs & Demo,Product Advice,0.29782631489863126,True,2
+SR509744,email,Induction Cooktop,in_warranty,Repairs,Repairs,Product Advice,0.42012176665474943,True,1
+SR509745,whatsapp,Ceiling Fan,out_of_warranty,Product Advice,Product Advice,Returns & Replacement,0.9821107642496651,False,0
+SR509749,ivr,Induction Cooktop,out_of_warranty,Repairs,Billing,Installs & Demo,0.2584514573995136,True,2
+SR509752,chat,Mixer Grinder,in_warranty,Warranty Claims,Installs & Demo,Warranty Claims,0.7765644614770961,False,0
+SR509759,whatsapp,Air Fryer,in_warranty,Repairs,Installs & Demo,Billing,0.35717689450715456,True,1
+SR509767,whatsapp,Water Purifier,shield,Filters & Consumables,Installs & Demo,Product Advice,0.1916544386355871,True,1
+SR509770,email,Robot Vacuum,in_warranty,Repairs,Product Advice,Returns & Replacement,0.3428299105863358,True,1
+SR509780,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Returns & Replacement,Installs & Demo,0.39938306012961206,True,2
+SR509784,whatsapp,Mixer Grinder,in_warranty,Product Advice,Filters & Consumables,Product Advice,0.618220003193826,False,0
+SR509797,whatsapp,Water Purifier,in_warranty,Billing,Billing,Returns & Replacement,0.5082016495680628,False,2
+SR509803,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Returns & Replacement,Installs & Demo,0.34778089176205773,True,1
+SR509816,ivr,Mixer Grinder,out_of_warranty,Repairs,Billing,Repairs,0.25839090306044155,True,0
+SR509819,chat,Mixer Grinder,out_of_warranty,Warranty Claims,Warranty Claims,Repairs,0.9925117455234825,False,0
+SR509820,ivr,Ceiling Fan,in_warranty,Installs & Demo,Installs & Demo,Filters & Consumables,0.9344405497678829,False,0
+SR509830,chat,Room Heater,out_of_warranty,Repairs,Product Advice,Repairs,0.9166107369226464,False,0
+SR509837,email,Water Purifier,in_warranty,Filters & Consumables,Repairs,Installs & Demo,0.673176309113027,False,1
+SR509841,whatsapp,Water Purifier,out_of_warranty,Filters & Consumables,Returns & Replacement,Warranty Claims,0.26329072327430036,True,1
+SR509844,whatsapp,Water Purifier,out_of_warranty,Filters & Consumables,Warranty Claims,Product Advice,0.25747084339065707,True,2
+SR509853,chat,Mixer Grinder,in_warranty,Repairs,Billing,Warranty Claims,0.8519213484977604,True,1
+SR509856,chat,Mixer Grinder,in_warranty,Repairs,Repairs,Returns & Replacement,0.37406912255774544,True,2
+SR509864,ivr,Air Fryer,in_warranty,Returns & Replacement,Returns & Replacement,Filters & Consumables,0.9709867876109164,False,0
+SR509883,email,Room Heater,shield,Repairs,Filters & Consumables,Product Advice,0.9585076727686801,False,2
+SR509890,ivr,Air Fryer,in_warranty,Product Advice,Product Advice,Installs & Demo,0.9924530485067834,False,0
+SR509898,ivr,Induction Cooktop,in_warranty,Repairs,Billing,Returns & Replacement,0.24230440976423875,True,2
+SR509901,ivr,Induction Cooktop,in_warranty,Repairs,Repairs,Product Advice,0.697261747946038,True,1
+SR509902,ivr,Air Fryer,in_warranty,Repairs,Product Advice,Returns & Replacement,0.317234721406173,True,2
+SR509905,email,Air Fryer,in_warranty,Repairs,Product Advice,Repairs,0.22371933810922515,True,1
+SR509907,chat,Induction Cooktop,in_warranty,Returns & Replacement,Installs & Demo,Returns & Replacement,0.7273666008487172,False,0
+SR509914,email,Air Fryer,in_warranty,Repairs,Filters & Consumables,Returns & Replacement,0.3413613878005413,True,2
+SR509924,ivr,Room Heater,in_warranty,Repairs,Returns & Replacement,Repairs,0.26197571554247184,True,0
+SR509925,chat,Mixer Grinder,in_warranty,Repairs,Repairs,Filters & Consumables,0.44538773902413475,True,2
+SR509927,ivr,Induction Cooktop,in_warranty,Repairs,Billing,Returns & Replacement,0.477853250126237,True,1
+SR509930,ivr,Mixer Grinder,in_warranty,Repairs,Returns & Replacement,Installs & Demo,0.9250104508019238,False,1
+SR509939,whatsapp,Air Fryer,in_warranty,Repairs,Installs & Demo,Filters & Consumables,0.3239438300870704,True,1
+SR509943,whatsapp,Air Fryer,in_warranty,Repairs,Returns & Replacement,Repairs,0.3797969535031911,True,0
+SR509946,chat,Room Heater,shield,Repairs,Repairs,Returns & Replacement,0.4610513151402856,True,1
+SR509954,whatsapp,Robot Vacuum,out_of_warranty,Repairs,Repairs,Product Advice,0.3300662685007142,True,2
+SR509966,whatsapp,Induction Cooktop,out_of_warranty,Repairs,Billing,Returns & Replacement,0.4557735679783748,True,1
+SR509967,whatsapp,Ceiling Fan,in_warranty,Repairs,Billing,Repairs,0.2989563224945299,True,0
+SR509970,chat,Ceiling Fan,in_warranty,Returns & Replacement,Returns & Replacement,Warranty Claims,0.9800085538537947,False,0
+SR509973,chat,Robot Vacuum,out_of_warranty,Filters & Consumables,Filters & Consumables,Installs & Demo,0.9729909512994436,False,0
+SR509979,whatsapp,Robot Vacuum,in_warranty,Warranty Claims,Repairs,Warranty Claims,0.5279205410502447,False,0
+SR509994,whatsapp,Robot Vacuum,out_of_warranty,Repairs,Returns & Replacement,Repairs,0.7177544746253994,False,0
+SR509997,whatsapp,Robot Vacuum,shield,Repairs,Installs & Demo,Billing,0.2134821739777632,True,1
+SR510002,chat,Robot Vacuum,in_warranty,Product Advice,Product Advice,Filters & Consumables,0.9762566145240752,False,0
+SR510005,chat,Mixer Grinder,in_warranty,Repairs,Installs & Demo,Filters & Consumables,0.5177150398741733,True,1
+SR510022,chat,Mixer Grinder,out_of_warranty,Repairs,Repairs,Billing,0.23592593882706744,True,2
+SR510034,chat,Water Purifier,in_warranty,Filters & Consumables,Returns & Replacement,Repairs,0.24360159682776594,True,1
+SR510043,ivr,Induction Cooktop,in_warranty,Repairs,Repairs,Installs & Demo,0.3900645926377093,True,2
+SR510045,chat,Mixer Grinder,out_of_warranty,Repairs,Repairs,Returns & Replacement,0.3129921666756751,True,1
+SR510048,chat,Mixer Grinder,out_of_warranty,Repairs,Installs & Demo,Warranty Claims,0.27661994338641777,True,2
+SR510053,ivr,Ceiling Fan,in_warranty,Repairs,Warranty Claims,Installs & Demo,0.2645520584465969,True,2
+SR510054,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Returns & Replacement,Installs & Demo,0.3307103628166775,True,2
+SR510061,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Installs & Demo,Product Advice,0.4820680745256974,True,1
+SR510073,ivr,Ceiling Fan,in_warranty,Repairs,Warranty Claims,Repairs,0.18748175315761417,True,0
+SR510077,email,Mixer Grinder,in_warranty,Repairs,Repairs,Installs & Demo,0.285860994363838,True,1
+SR510101,whatsapp,Air Fryer,out_of_warranty,Repairs,Filters & Consumables,Billing,0.25171558413005723,True,2
+SR510110,ivr,Robot Vacuum,out_of_warranty,Repairs,Installs & Demo,Product Advice,0.42644713962253106,True,2
+SR510112,whatsapp,Robot Vacuum,shield,Repairs,Installs & Demo,Returns & Replacement,0.28874779065485556,True,2
+SR510146,chat,Room Heater,in_warranty,Warranty Claims,Warranty Claims,Product Advice,0.9894209637764905,False,0
+SR510159,whatsapp,Air Fryer,out_of_warranty,Product Advice,Repairs,Product Advice,0.6770570921635282,False,0
+SR510164,chat,Induction Cooktop,in_warranty,Repairs,Repairs,Product Advice,0.34974000430834196,True,2
+SR510176,chat,Air Fryer,in_warranty,Repairs,Warranty Claims,Repairs,0.40084465556122917,False,0
+SR510182,ivr,Ceiling Fan,out_of_warranty,Repairs,Repairs,Installs & Demo,0.287839556472416,True,1
+SR510186,whatsapp,Induction Cooktop,in_warranty,Repairs,Billing,Warranty Claims,0.2913475680714055,True,1
+SR510193,ivr,Mixer Grinder,out_of_warranty,Repairs,Repairs,Billing,0.17980976005561397,True,1
+SR510196,email,Water Purifier,in_warranty,Filters & Consumables,Repairs,Product Advice,0.3235437858464838,True,1
+SR510197,chat,Air Fryer,shield,Repairs,Filters & Consumables,Product Advice,0.8881807416156291,False,2
+SR510210,ivr,Induction Cooktop,in_warranty,Repairs,Repairs,Filters & Consumables,0.99272905501291,False,0
+SR510211,ivr,Water Purifier,in_warranty,Filters & Consumables,Returns & Replacement,Installs & Demo,0.34697697904153185,True,1
+SR510216,whatsapp,Air Fryer,in_warranty,Repairs,Billing,Filters & Consumables,0.2786171780286669,True,2
+SR510221,whatsapp,Mixer Grinder,in_warranty,Product Advice,Product Advice,Billing,0.9705491432695532,False,0
+SR510228,ivr,Robot Vacuum,in_warranty,Repairs,Repairs,Returns & Replacement,0.29341405768038126,True,2
+SR510231,ivr,Air Fryer,out_of_warranty,Repairs,Product Advice,Returns & Replacement,0.3760479975201924,True,2
+SR510235,ivr,Robot Vacuum,shield,Repairs,Returns & Replacement,Billing,0.8141555526216526,True,1
+SR510247,chat,Mixer Grinder,out_of_warranty,Repairs,Billing,Installs & Demo,0.21926252288207376,True,2
+SR510256,chat,Room Heater,in_warranty,Repairs,Repairs,Warranty Claims,0.9934874094157874,False,1
+SR510268,whatsapp,Robot Vacuum,out_of_warranty,Repairs,Installs & Demo,Filters & Consumables,0.2388793708255326,True,2
+SR510269,ivr,Robot Vacuum,shield,Repairs,Warranty Claims,Filters & Consumables,0.27433150344696783,True,1
+SR510272,ivr,Mixer Grinder,out_of_warranty,Repairs,Billing,Product Advice,0.2174066178502788,True,2
+SR510276,whatsapp,Induction Cooktop,in_warranty,Repairs,Repairs,Returns & Replacement,0.2584463561404593,True,2
+SR510282,chat,Room Heater,in_warranty,Repairs,Warranty Claims,Installs & Demo,0.3094998392222987,True,1
+SR510283,whatsapp,Air Fryer,shield,Repairs,Product Advice,Filters & Consumables,0.2743957753403869,True,1
+SR510287,whatsapp,Air Fryer,shield,Repairs,Installs & Demo,Billing,0.25815222905474633,True,1
+SR510292,chat,Mixer Grinder,out_of_warranty,Product Advice,Product Advice,Filters & Consumables,0.983255863144537,False,0
+SR510303,chat,Induction Cooktop,shield,Repairs,Installs & Demo,Warranty Claims,0.27775224862644377,True,2
+SR510305,ivr,Mixer Grinder,in_warranty,Repairs,Filters & Consumables,Returns & Replacement,0.2459835727081175,True,1
+SR510310,email,Induction Cooktop,in_warranty,Product Advice,Repairs,Product Advice,0.6154151622041035,False,0
+SR510314,whatsapp,Mixer Grinder,out_of_warranty,Returns & Replacement,Product Advice,Returns & Replacement,0.4966764769981928,False,0
+SR510317,whatsapp,Ceiling Fan,in_warranty,Returns & Replacement,Returns & Replacement,Warranty Claims,0.9890921699637272,False,0
+SR510325,whatsapp,Room Heater,shield,Repairs,Repairs,Installs & Demo,0.39994456395605915,True,2
+SR510333,chat,Room Heater,out_of_warranty,Repairs,Filters & Consumables,Repairs,0.5205868871822613,False,0
+SR510339,chat,Room Heater,in_warranty,Repairs,Installs & Demo,Repairs,0.37391754444689185,True,0
+SR510342,ivr,Induction Cooktop,shield,Repairs,Installs & Demo,Billing,0.33574194398194096,True,2
+SR510353,whatsapp,Robot Vacuum,in_warranty,Repairs,Filters & Consumables,Product Advice,0.22634599125324587,True,2
+SR510354,ivr,Ceiling Fan,in_warranty,Repairs,Repairs,Filters & Consumables,0.9811972543545858,False,2
+SR510355,email,Room Heater,in_warranty,Repairs,Repairs,Product Advice,0.7589070101155889,True,2
+SR510356,ivr,Robot Vacuum,out_of_warranty,Repairs,Installs & Demo,Product Advice,0.3821956105067325,True,2
+SR510357,ivr,Water Purifier,out_of_warranty,Filters & Consumables,Product Advice,Installs & Demo,0.4654346513175414,True,1
+SR510361,whatsapp,Induction Cooktop,in_warranty,Repairs,Billing,Returns & Replacement,0.33711128924891964,True,2
+SR510364,chat,Induction Cooktop,in_warranty,Repairs,Installs & Demo,Returns & Replacement,0.36762382956574496,True,2
+SR510365,chat,Air Fryer,in_warranty,Repairs,Installs & Demo,Returns & Replacement,0.29155452144923794,True,2
+SR510368,whatsapp,Room Heater,out_of_warranty,Repairs,Filters & Consumables,Returns & Replacement,0.37406514955941866,True,2
+SR510388,email,Air Fryer,shield,Repairs,Repairs,Product Advice,0.4006877122584788,True,1
+SR510391,ivr,Induction Cooktop,out_of_warranty,Repairs,Repairs,Installs & Demo,0.2953513464292358,True,1
+SR510393,chat,Induction Cooktop,in_warranty,Filters & Consumables,Installs & Demo,Filters & Consumables,0.49607450161501115,False,0
+SR510399,whatsapp,Mixer Grinder,out_of_warranty,Repairs,Warranty Claims,Repairs,0.3211065664342027,True,0
+SR510402,ivr,Water Purifier,in_warranty,Filters & Consumables,Filters & Consumables,Returns & Replacement,0.34238395800626475,True,2
+SR510404,email,Air Fryer,shield,Repairs,Repairs,Warranty Claims,0.4197729493656333,True,2
+SR510418,chat,Air Fryer,shield,Repairs,Billing,Warranty Claims,0.22926263269261501,True,2
+SR510419,ivr,Water Purifier,shield,Filters & Consumables,Warranty Claims,Installs & Demo,0.2775860025258114,True,2
+SR510422,whatsapp,Water Purifier,out_of_warranty,Filters & Consumables,Warranty Claims,Installs & Demo,0.2629420641586577,True,2
+SR510428,whatsapp,Robot Vacuum,in_warranty,Repairs,Installs & Demo,Repairs,0.8949788687497598,True,0
+SR510429,ivr,Water Purifier,in_warranty,Filters & Consumables,Product Advice,Returns & Replacement,0.36407422952724233,True,2
+SR510431,chat,Air Fryer,out_of_warranty,Repairs,Repairs,Warranty Claims,0.6678762004822342,True,2
+SR510432,ivr,Induction Cooktop,shield,Repairs,Billing,Warranty Claims,0.4338659720026801,True,2
+SR510435,chat,Induction Cooktop,out_of_warranty,Repairs,Installs & Demo,Product Advice,0.24680093918715432,True,1
+SR510438,email,Induction Cooktop,in_warranty,Repairs,Installs & Demo,Warranty Claims,0.24146038129669456,True,2
+SR510441,ivr,Ceiling Fan,in_warranty,Repairs,Filters & Consumables,Repairs,0.3874846980528197,True,0
+SR510442,chat,Induction Cooktop,shield,Repairs,Warranty Claims,Installs & Demo,0.26598257458362934,True,1
+SR510446,chat,Air Fryer,in_warranty,Repairs,Repairs,Product Advice,0.23484541018020164,True,1
+SR510449,whatsapp,Room Heater,shield,Repairs,Filters & Consumables,Installs & Demo,0.4921610411883473,True,1
+SR510452,email,Room Heater,out_of_warranty,Repairs,Repairs,Installs & Demo,0.49031217146448963,True,1
+SR510460,email,Air Fryer,in_warranty,Repairs,Repairs,Returns & Replacement,0.31231522743823514,True,1
+SR510463,chat,Induction Cooktop,out_of_warranty,Returns & Replacement,Returns & Replacement,Installs & Demo,0.9873217629296406,False,0
+SR510470,chat,Room Heater,in_warranty,Repairs,Warranty Claims,Product Advice,0.2912572650611,True,1
+SR510473,chat,Induction Cooktop,in_warranty,Repairs,Product Advice,Returns & Replacement,0.2491632448770137,True,1
+SR510474,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Repairs,Returns & Replacement,0.4539412488985483,True,1
+SR510501,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Warranty Claims,Product Advice,0.3080188966979793,True,2
+SR510503,chat,Ceiling Fan,in_warranty,Repairs,Billing,Returns & Replacement,0.2257690314637235,True,1
+SR510504,chat,Mixer Grinder,in_warranty,Repairs,Product Advice,Warranty Claims,0.28232301064408105,True,2
+SR510506,whatsapp,Room Heater,shield,Repairs,Filters & Consumables,Returns & Replacement,0.280547797306733,True,2
+SR510512,email,Robot Vacuum,in_warranty,Repairs,Warranty Claims,Installs & Demo,0.3157201428992499,True,1
+SR510514,whatsapp,Ceiling Fan,shield,Repairs,Repairs,Installs & Demo,0.8362356662102908,False,1
+SR510516,whatsapp,Air Fryer,in_warranty,Repairs,Billing,Repairs,0.7382964572432995,False,0
+SR510518,chat,Room Heater,shield,Repairs,Product Advice,Repairs,0.21763922386815718,True,0
+SR510525,whatsapp,Air Fryer,in_warranty,Repairs,Repairs,Product Advice,0.3740855067638731,True,2
+SR510533,ivr,Water Purifier,in_warranty,Billing,Billing,Warranty Claims,0.9867390053140808,False,0
+SR510534,email,Mixer Grinder,in_warranty,Repairs,Warranty Claims,Product Advice,0.25523234805756007,True,2
+SR510541,whatsapp,Ceiling Fan,in_warranty,Repairs,Repairs,Returns & Replacement,0.25901389594174684,True,2
+SR510543,ivr,Mixer Grinder,in_warranty,Repairs,Installs & Demo,Repairs,0.391714626189701,False,0
+SR510544,ivr,Ceiling Fan,in_warranty,Repairs,Filters & Consumables,Warranty Claims,0.5670353506290371,False,2
+SR510556,whatsapp,Air Fryer,in_warranty,Repairs,Returns & Replacement,Warranty Claims,0.30287276966870985,True,1
+SR510567,ivr,Room Heater,in_warranty,Repairs,Product Advice,Billing,0.3107698855669009,True,1
+SR510575,ivr,Ceiling Fan,in_warranty,Repairs,Returns & Replacement,Repairs,0.7680462148086902,False,0
+SR510576,chat,Room Heater,in_warranty,Repairs,Repairs,Returns & Replacement,0.3691440726891885,True,1
+SR510580,ivr,Mixer Grinder,shield,Repairs,Repairs,Returns & Replacement,0.2774370165800104,True,1
+SR510597,email,Robot Vacuum,in_warranty,Repairs,Filters & Consumables,Product Advice,0.44709766256017214,True,1
+SR510611,ivr,Room Heater,shield,Repairs,Repairs,Product Advice,0.643614178531771,True,2
+SR510613,whatsapp,Induction Cooktop,in_warranty,Repairs,Repairs,Installs & Demo,0.46013043694414013,True,1
+SR510623,chat,Mixer Grinder,in_warranty,Repairs,Installs & Demo,Returns & Replacement,0.35292232794077893,True,1
+SR510633,chat,Ceiling Fan,out_of_warranty,Repairs,Repairs,Returns & Replacement,0.3318304159668019,True,1
+SR510634,email,Ceiling Fan,in_warranty,Repairs,Repairs,Returns & Replacement,0.5963361228580011,True,1
+SR510638,chat,Room Heater,shield,Repairs,Product Advice,Filters & Consumables,0.24639909562387619,True,1
+SR510652,email,Robot Vacuum,in_warranty,Repairs,Warranty Claims,Product Advice,0.33973197457715165,True,1
+SR510663,ivr,Water Purifier,in_warranty,Filters & Consumables,Product Advice,Warranty Claims,0.29756761377053276,True,2
+SR510665,whatsapp,Air Fryer,out_of_warranty,Repairs,Warranty Claims,Returns & Replacement,0.3523311741469684,True,1
+SR510669,ivr,Mixer Grinder,in_warranty,Repairs,Returns & Replacement,Installs & Demo,0.21584635585518558,True,1
+SR510670,email,Induction Cooktop,in_warranty,Repairs,Repairs,Billing,0.4639520699739071,True,2
+SR510689,whatsapp,Induction Cooktop,in_warranty,Repairs,Billing,Product Advice,0.21827225091871533,True,1
+SR510692,chat,Air Fryer,in_warranty,Warranty Claims,Billing,Warranty Claims,0.5210397762705374,False,0
+SR510698,ivr,Room Heater,in_warranty,Repairs,Repairs,Product Advice,0.5730489908881969,True,2
+SR510699,ivr,Robot Vacuum,in_warranty,Repairs,Warranty Claims,Repairs,0.24998832926189907,True,0
+SR510703,whatsapp,Ceiling Fan,out_of_warranty,Repairs,Product Advice,Installs & Demo,0.4983056925343178,True,1
+SR510705,chat,Air Fryer,in_warranty,Repairs,Repairs,Filters & Consumables,0.48389167957789586,True,2
+SR510714,whatsapp,Air Fryer,shield,Billing,Installs & Demo,Billing,0.9668909220203046,False,2
+SR510735,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Installs & Demo,Repairs,0.3095370263870278,True,2
+SR510749,chat,Water Purifier,in_warranty,Filters & Consumables,Warranty Claims,Repairs,0.34246174014803327,True,1
+SR510751,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Installs & Demo,Warranty Claims,0.407765331645421,True,2
+SR510760,chat,Mixer Grinder,in_warranty,Repairs,Installs & Demo,Filters & Consumables,0.27259556706926386,True,1
+SR510773,ivr,Robot Vacuum,shield,Repairs,Repairs,Installs & Demo,0.4475903264225943,True,2
+SR510778,ivr,Water Purifier,out_of_warranty,Filters & Consumables,Repairs,Installs & Demo,0.998278109821043,False,2
+SR510779,ivr,Room Heater,out_of_warranty,Repairs,Installs & Demo,Product Advice,0.3468129907957422,True,2
+SR510783,whatsapp,Water Purifier,in_warranty,Filters & Consumables,Product Advice,Warranty Claims,0.6623638872597309,True,2
+SR510784,whatsapp,Water Purifier,shield,Filters & Consumables,Repairs,Installs & Demo,0.22685003215964966,True,2
+SR510790,chat,Robot Vacuum,in_warranty,Repairs,Product Advice,Warranty Claims,0.7053162205220986,True,2
+SR510794,ivr,Air Fryer,in_warranty,Billing,Filters & Consumables,Billing,0.6843681240588606,False,0
+SR510801,whatsapp,Air Fryer,in_warranty,Repairs,Repairs,Filters & Consumables,0.36475789574287837,True,1
+SR510810,ivr,Air Fryer,in_warranty,Repairs,Repairs,Product Advice,0.38988831547269404,True,2
+SR510816,chat,Water Purifier,shield,Filters & Consumables,Warranty Claims,Product Advice,0.2687899319187523,True,2
+SR510818,chat,Room Heater,in_warranty,Repairs,Installs & Demo,Warranty Claims,0.2970709943302,True,1

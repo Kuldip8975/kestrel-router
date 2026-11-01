@@ -1,0 +1,204 @@
+{
+  "n_train": 10822,
+  "n_test": 2178,
+  "backtest_mean": {
+    "bot_correct": 0.7705,
+    "model_on_bot_labels__correct": 0.7735,
+    "model_on_bot_labels__matches_bot": 0.9641,
+    "our_model__correct": 0.8457,
+    "our_model__matches_bot": 0.7874,
+    "our_model_macro_f1": 0.8427,
+    "clear_share": 0.8388,
+    "our_model__correct_clear": 0.9602,
+    "our_model__correct_vague": 0.2522,
+    "bot__correct_clear": 0.8668,
+    "bot__correct_vague": 0.2724
+  },
+  "backtest_min_month_correct": 0.8256,
+  "backtest_max_month_correct": 0.87,
+  "policy3_paid_mentions_holdout": {
+    "n": 192,
+    "bot_sent_to_billing": 0.729,
+    "actually_billing": 0.182,
+    "model_sent_to_billing": 0.182,
+    "model_correct": 0.859,
+    "bot_correct": 0.333
+  },
+  "holdout_accuracy_by_confidence": {
+    "(0.0, 0.45]": {
+      "share": 0.121,
+      "correct": 0.229
+    },
+    "(0.45, 0.7]": {
+      "share": 0.058,
+      "correct": 0.452
+    },
+    "(0.7, 0.9]": {
+      "share": 0.047,
+      "correct": 0.81
+    },
+    "(0.9, 1.0]": {
+      "share": 0.774,
+      "correct": 0.976
+    }
+  },
+  "holdout_auto_route": {
+    "share": 0.834,
+    "correct": 0.959
+  },
+  "holdout_errors": {
+    "n": 326,
+    "share_vague": 0.77
+  },
+  "money": {
+    "avg_transfers_per_misroute": 1.44,
+    "cost_per_misroute_rs": 698,
+    "requests_per_year_est": 8712,
+    "bot_misroute_rate": 0.2295,
+    "model_misroute_rate": 0.1543,
+    "bot_misroute_cost_per_year_rs": 1395458,
+    "model_misroute_cost_per_year_rs": 938270,
+    "saving_misroutes_per_year_rs": 457189,
+    "saving_licence_per_year_rs": 320000,
+    "run_cost_per_month_rs": 0,
+    "test_clear_share": 0.838,
+    "total_saving_per_year_rs": 777189
+  },
+  "model_card": {
+    "model_version": "20261031-171839",
+    "trained_at_utc": "2026-10-31T17:18:39+00:00",
+    "sklearn_version": "1.9.1",
+    "target": "final_team (team that resolved the request), renamed teams merged",
+    "training_rows": 10822,
+    "training_period": [
+      "2025-04-01",
+      "2026-06-30"
+    ],
+    "backtest_accuracy": 0.8457,
+    "backtest_accuracy_clear": 0.9602,
+    "backtest_accuracy_vague": 0.2522,
+    "bot_accuracy_same_period": 0.7705,
+    "confidence_floor": 0.45,
+    "teams": [
+      "Repairs",
+      "Installs & Demo",
+      "Filters & Consumables",
+      "Billing",
+      "Returns & Replacement",
+      "Warranty Claims",
+      "Product Advice"
+    ]
+  },
+  "test_predicted_volume_by_team": {
+    "Repairs": 555,
+    "Installs & Demo": 325,
+    "Returns & Replacement": 295,
+    "Product Advice": 277,
+    "Warranty Claims": 273,
+    "Billing": 253,
+    "Filters & Consumables": 200
+  },
+  "test_actions": {
+    "auto_route": 0.837,
+    "clarify_first": 0.162,
+    "check": 0.002
+  },
+  "history_volume_by_final_team_per_month": {
+    "Billing": 88.0,
+    "Filters & Consumables": 71.0,
+    "Installs & Demo": 106.0,
+    "Product Advice": 93.0,
+    "Repairs": 169.0,
+    "Returns & Replacement": 103.0,
+    "Warranty Claims": 92.0
+  },
+  "expected_test_accuracy": 0.8458,
+  "expected_test_accuracy_range": [
+    0.8256,
+    0.87
+  ],
+  "sample_explanations": [
+    {
+      "request_id": "SR511218",
+      "team": "Billing",
+      "confidence": 0.973,
+      "action": "auto_route",
+      "reasons": [
+        "Key words in the message: \"deducted but\", \"payment deducted\", \"placed\".",
+        "The problem is the payment itself (invoice, GST, charge, refund, EMI)."
+      ],
+      "suggested_question": null,
+      "alternatives": [
+        {
+          "team": "Filters & Consumables",
+          "confidence": 0.008
+        },
+        {
+          "team": "Warranty Claims",
+          "confidence": 0.007
+        }
+      ]
+    },
+    {
+      "request_id": "SR511682",
+      "team": "Repairs",
+      "confidence": 0.995,
+      "action": "auto_route",
+      "reasons": [
+        "Key words in the message: \"working\", \"purifier not\", \"making\"."
+      ],
+      "suggested_question": null,
+      "alternatives": [
+        {
+          "team": "Product Advice",
+          "confidence": 0.001
+        },
+        {
+          "team": "Installs & Demo",
+          "confidence": 0.001
+        }
+      ]
+    },
+    {
+      "request_id": "SR511503",
+      "team": "Installs & Demo",
+      "confidence": 0.384,
+      "action": "clarify_first",
+      "reasons": [
+        "Key words in the message: \"room heater\".",
+        "Message does not say what is wrong. Requests like this have historically ended up in any of the seven teams, so this team is a best guess only."
+      ],
+      "suggested_question": "Ask the customer one question before routing: is it (a) not working / a fault, (b) installation or demo, (c) delivery damaged, wrong or a return, (d) warranty or Shield, (e) a payment or invoice problem, (f) filters or spares, or (g) how to use it?",
+      "alternatives": [
+        {
+          "team": "Product Advice",
+          "confidence": 0.125
+        },
+        {
+          "team": "Billing",
+          "confidence": 0.122
+        }
+      ]
+    },
+    {
+      "request_id": "SR511416",
+      "team": "Repairs",
+      "confidence": 0.984,
+      "action": "auto_route",
+      "reasons": [
+        "Key words in the message: \"error\", \"showing\", \"code\"."
+      ],
+      "suggested_question": null,
+      "alternatives": [
+        {
+          "team": "Installs & Demo",
+          "confidence": 0.003
+        },
+        {
+          "team": "Product Advice",
+          "confidence": 0.003
+        }
+      ]
+    }
+  ]
+}
